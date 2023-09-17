@@ -2,6 +2,8 @@ The practical work in week 2 consists of setting up our development environment.
 The aim of this work is to show that our development environment is  set up correctly and that we have a good understanding of how it works.
 
 
+First we needed to install Visual Studio, the IDE that we are going to use.
+Then we go on our github account to import the template to create our own repository. In order to go on Github and to click on the + button like we can see on the screenshot. Then we click on "import repository". 
 
 # Setup
 
