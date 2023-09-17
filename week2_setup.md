@@ -12,14 +12,23 @@ The main requirements are to show that:
 2. You understand the setup including potential alternative configuration settings
 
 ## Environment configuration
+
+**1 - Fist step **<br>
+
 First we needed to install Visual Studio, the IDE that we are going to use.
-Then we go on our github account to import the template to create our own repository. In order to go on Github and to click on the + button like we can see on the screenshot. Then we click on "import repository". 
+Then we go on our github account to import the template to create our own repository.
+In order to go on Github and to click on the + button like we can see on the figure1.1. 
+Then we click on "import repository" like we can see on the figure1.1. 
 
-(mettre premiere image)
+
 ![screenshot 1](images/import_repository.png)
+<figcaption><b>Fig.1.1 - Where to click to import a repository</b></figcaption><br>
 
-
-Then we have to enter the old repository's clone URL. It is the URL of the template, and we give our repository a new name. Then we click on submit and we can find the template of the portfolio on our account. 
+Then we have to enter the old repository's clone URL.
+It is the URL of the template, and we give our repository a new name like i did on the figure 1.2. 
+Then we click on submit and we can find the template of the portfolio on our account. 
+ ![screenshot 2](images/import_repository2.png)
+ <figcaption><b>Fig.1.2 - Where to copy the link of the repository</b></figcaption><br>
 
 (mettre deuxieme et troisieme image)
 
