@@ -2,9 +2,6 @@ The practical work in week 2 consists of setting up our development environment.
 The aim of this work is to show that our development environment is  set up correctly and that we have a good understanding of how it works.
 
 
-First we needed to install Visual Studio, the IDE that we are going to use.
-Then we go on our github account to import the template to create our own repository. In order to go on Github and to click on the + button like we can see on the screenshot. Then we click on "import repository". 
-
 # Setup
 
 This section documents your practical work in week 2.
@@ -15,6 +12,30 @@ The main requirements are to show that:
 2. You understand the setup including potential alternative configuration settings
 
 ## Environment configuration
+First we needed to install Visual Studio, the IDE that we are going to use.
+Then we go on our github account to import the template to create our own repository. In order to go on Github and to click on the + button like we can see on the screenshot. Then we click on "import repository". 
+
+(mettre premiere image)
+<figure>
+<img src="https://images.unsplash.com/photo-1549740425-5e9ed4d8cd34?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwzOTU0NTB8fGVufDB8fHw%3D&w=1000&q=80" alt="Trulli" style="width:100%">
+<figcaption align = "center"><b>Fig.1 - 4K Mountains Wallpaper</b></figcaption>
+</figure>
+
+Then we have to enter the old repository's clone URL. It is the URL of the template, and we give our repository a new name. Then we click on submit and we can find the template of the portfolio on our account. 
+
+(mettre deuxieme et troisieme image)
+
+Then we open Visual Studio wich we have previously downloaded. We have the choice between few options. But we have to click on "clone a repository" and to enter the template of the protfolio's URL. Now we have access to our portfolio and we can make some changes on it. 
+
+(mettre photo des deux cloner mon depot)   
+
+To make sure it works, I try to do a commit and push. So first we have to do a modification on the portfolio. Then we write a comment to discribe what we change and we validate this comment. When it is done you click on the button git and send. 
+
+(mettre photo changements et commentaires)
+
+Then, when we come back to git on my personnal repository, we can see that the modifications appear. 
+
+
 
 Here, you should include appropriate screenshots with additional commentary. 
 
