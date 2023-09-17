@@ -16,7 +16,7 @@ First we needed to install Visual Studio, the IDE that we are going to use.
 Then we go on our github account to import the template to create our own repository. In order to go on Github and to click on the + button like we can see on the screenshot. Then we click on "import repository". 
 
 (mettre premiere image)
-![screenshot 1](images\import_repository.png)
+![screenshot 1](images/import_repository.png)
 
 
 Then we have to enter the old repository's clone URL. It is the URL of the template, and we give our repository a new name. Then we click on submit and we can find the template of the portfolio on our account. 
