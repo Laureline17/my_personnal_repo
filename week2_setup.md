@@ -4,88 +4,75 @@ The aim of this work is to show that our development environment is  set up corr
 
 # Setup
 
-This section documents your practical work in week 2.
+The practical work in week 2 consists of setting up our development environment. <br> 
+The aim of this work is to show that our development environment is  set up correctly and that we have a good understanding of how it works.<br>
 
-The main requirements are to show that:
-
-1. Your development environment is correctly set up
-2. You understand the setup including potential alternative configuration settings
 
 ## Environment configuration
 
-**1 - Fist step **<br>
+**1 - Fist step : create our repository **<br>
 
-First we needed to install Visual Studio, the IDE that we are going to use.
-Then we go on our github account to import the template to create our own repository.
-In order to go on Github and to click on the + button like we can see on the figure1.1. 
-Then we click on "import repository" like we can see on the figure1.1. 
+First we needed to install Visual Studio, the IDE that we are going to use.<br>
+Then we go on our github account to import the template to create our own repository.<br>
+In order to go on Github and to click on the + button like we can see on the figure1.1. <br>
+Then we click on "import repository" like we can see on the figure1.1. <br>
 
 
 ![screenshot 1](images/import_repository.png)
 <figcaption><b>Fig.1.1 - Where to click to import a repository</b></figcaption><br>
 
-Then we have to enter the old repository's clone URL.
-It is the URL of the template, and we give our repository a new name like i did on the figure 1.2. 
-Then we click on submit and we can find the template of the portfolio on our account. 
- ![screenshot 2](images/import_repository2.png)
- <figcaption><b>Fig.1.2 - Where to copy the link of the repository</b></figcaption><br>
+Then we have to enter the old repository's clone URL.<br>
+It is the URL of the template, and we give our repository a new name like i did on the figure 1.2. <br>
+Then we click on submit and we can find the template of the portfolio on our account.<br>
 
-(mettre deuxieme et troisieme image)
+![screenshot 2](images/import_repository2.png)
+<figcaption><b>Fig.1.2 - Where to copy the link of the repository</b></figcaption><br>
 
-Then we open Visual Studio wich we have previously downloaded. We have the choice between few options. But we have to click on "clone a repository" and to enter the template of the protfolio's URL. Now we have access to our portfolio and we can make some changes on it. 
+**2 - Second step : clone on visual studio **<br>
 
-(mettre photo des deux cloner mon depot)   
+Now we want to have access to it on Visual Studio. For that, we have to clone it.
+So we open Visual Studio wich we have previously downloaded. We have the choice between few options. <br>
+But we have to click on "clone a repository" like i show on the figure 2.1 and then we have to enter the template of the protfolio's URL.<br>
+then you have to click on the button cloner like you can see on my figure 2.2.<br>
+Now we have access to our portfolio and we can make some changes on it. <br>
 
-To make sure it works, I try to do a commit and push. So first we have to do a modification on the portfolio. Then we write a comment to discribe what we change and we validate this comment. When it is done you click on the button git and send. 
+![screenshot 3](images/cloner_un_depot.png)
+<figcaption><b>Fig.2.2 - where to click to clone a repository on Visual Studio</b></figcaption><br>
 
-(mettre photo changements et commentaires)
+![screenshot 4](images/cloner_un_depot2.png)
+<figcaption><b>Fig.2.2 - where to enter the address of the template</b></figcaption><br>
 
-Then, when we come back to git on my personnal repository, we can see that the modifications appear. 
+**3 - Third step : commit and push **<br>
+
+To make sure it works, I try to do a commit and push. So first we have to do a modification on the portfolio.
+Then we write a comment to discribe what we change and we validate this comment. 
+When it is done you click on the button git on the left and then click on send. <br>
+
+![screenshot 5](images/commentaires.png)
+<figcaption><b>Fig.3.1 - How to make a commit on visual studio</b></figcaption><br>
 
 
+Then, when we come back to git on my personnal repository, we can see on the figure3.2 that the modifications appear.<br> 
 
-Here, you should include appropriate screenshots with additional commentary. 
+![screenshot 6](images/modif_sur_git.png)
+<figcaption><b>Fig.3.2 - Verification on GitHub</b></figcaption><br>
 
-**DO**
+**4 - Fourth step : join the repository shared with the group **<br>
 
-* Place your image files in the `images` folder
-* Choose your screenshots carefully so that they communicate the appropriate information.
-  Many screenshots with no clear purpose or with trivial differences are of little value.
-* Provide <ins>descriptive</ins> commentary to explain why the screenshot is included. 
-  what it shows and point out any particularly significant details.
-* Modify your screenshots - for example, by adding arrows, outlines or other highlighting 
-  techniques - to enhance their communication value.
-* Remove unnecessary material from your screenshots such as toolbars, other windows and 
-  computer desktop to eliminate distractions.
-* Ensure that any important content is clearly legible. Pay particular attention to text
-  size and image resolution.
-* Use [numbered captions](https://towardsdev.com/3-ways-to-add-a-caption-to-an-image-using-markdown-f2ca30562be6) 
-  as labels for images. Also, use the caption numbers to refer to images in your text.
+A member of our group create the shared repository and send us an invitation by email. <br>
+We had to click on accept the invitation. <br>
+And we had to do the exact same step to clone it on visual studio. <br>
 
-**DON'T**
-
-* Expect the reader to understand your reasons for including a screenshot. If you can't
-  explain it, the screenshot will not do the job on its own.
-* Include self-evident comments. For example, don't simply list the values used on a
-  configuration page if those values are clearly visible in the screenshot.
 
 ## Reflection
 
-For this section, decide what points are worth making and structure your content 
-appropriately.
+My development environment is complet and correctly set up.
+Now I can work on projects with my teamates.
+The repository shared with the group permit us to work on the same project.
 
-**DO**
+I had some difficulties to add some images. But after few try I finally understand how to do it. 
 
-* Use sub-headings to differentiate between sections
-* Provide <ins>reflective</ins> commentary that discusses, for example, limitations of
-  your current configuration, how your configuration is appropriate for the current 
-  project, alternative configuration that might be appropriate in ther circumstances, 
-  etc.
-* Mention any difficulties you had setting up your working environment and how you 
-  resolved them
+F
 
-**DON'T**
 
-* Repeat the descriptive commentary from point 1
-* Give a blow-by-blow account of everything you did. Instead, you should highlight 
-  the important points.
+
