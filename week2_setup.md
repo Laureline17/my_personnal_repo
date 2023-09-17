@@ -16,10 +16,8 @@ First we needed to install Visual Studio, the IDE that we are going to use.
 Then we go on our github account to import the template to create our own repository. In order to go on Github and to click on the + button like we can see on the screenshot. Then we click on "import repository". 
 
 (mettre premiere image)
-<figure>
-<img src="https://images.unsplash.com/photo-1549740425-5e9ed4d8cd34?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwzOTU0NTB8fGVufDB8fHw%3D&w=1000&q=80" alt="Trulli" style="width:100%">
-<figcaption align = "center"><b>Fig.1 - 4K Mountains Wallpaper</b></figcaption>
-</figure>
+![screenshot 1](C:\Users\laure\source\repos\my_personnal_repo\images/import_repository.png)
+
 
 Then we have to enter the old repository's clone URL. It is the URL of the template, and we give our repository a new name. Then we click on submit and we can find the template of the portfolio on our account. 
 
