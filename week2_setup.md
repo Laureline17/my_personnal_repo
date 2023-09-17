@@ -35,7 +35,7 @@ then you have to click on the button cloner like you can see on my figure 2.2.<b
 Now we have access to our portfolio and we can make some changes on it. <br>
 
 ![screenshot 3](images/cloner_un_depot.png)
-<figcaption><b>Fig.2.2 - where to click to clone a repository on Visual Studio</b></figcaption><br>
+<figcaption><b>Fig.2.1 - where to click to clone a repository on Visual Studio</b></figcaption><br>
 
 ![screenshot 4](images/cloner_un_depot2.png)
 <figcaption><b>Fig.2.2 - where to enter the address of the template</b></figcaption><br>
