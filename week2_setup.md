@@ -1,6 +1,10 @@
+The practical work in week 2 consists of setting up our development environment.  
+The aim of this work is to show that our development environment is  set up correctly and that we have a good understanding of how it works.
+
+
+
 # Setup
 
-test
 This section documents your practical work in week 2.
 
 The main requirements are to show that:
