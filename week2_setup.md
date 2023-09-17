@@ -17,14 +17,14 @@ Then we click on "import repository" like we can see on the figure1.1. <br>
 
 
 ![screenshot 1](images/import_repository.png)
-<figcaption><b>Fig.1.1 - Where to click to import a repository</b></figcaption><br>
+<figcaption><b>Fig.1.1 - Where to click to import a repository</b></figcaption><br><br>
 
 Then we have to enter the old repository's clone URL.<br>
 It is the URL of the template, and we give our repository a new name like i did on the figure 1.2. <br>
 Then we click on submit and we can find the template of the portfolio on our account.<br>
 
 ![screenshot 2](images/import_repository2.png)
-<figcaption><b>Fig.1.2 - Where to copy the link of the repository</b></figcaption><br>
+<figcaption><b>Fig.1.2 - Where to copy the link of the repository</b></figcaption><br><br>
 
 **2 - Second step : clone on visual studio **<br>
 
@@ -35,10 +35,10 @@ then you have to click on the button cloner like you can see on my figure 2.2.<b
 Now we have access to our portfolio and we can make some changes on it. <br>
 
 ![screenshot 3](images/cloner_un_depot.png)
-<figcaption><b>Fig.2.1 - where to click to clone a repository on Visual Studio</b></figcaption><br>
+<figcaption><b>Fig.2.1 - where to click to clone a repository on Visual Studio</b></figcaption><br><br>
 
 ![screenshot 4](images/cloner_un_depot2.png)
-<figcaption><b>Fig.2.2 - where to enter the address of the template</b></figcaption><br>
+<figcaption><b>Fig.2.2 - where to enter the address of the template</b></figcaption><br><br>
 
 **3 - Third step : commit and push **<br>
 
@@ -47,13 +47,13 @@ Then we write a comment to discribe what we change and we validate this comment.
 When it is done you click on the button git on the left and then click on send. <br>
 
 ![screenshot 5](images/commentaires.png)
-<figcaption><b>Fig.3.1 - How to make a commit on visual studio</b></figcaption><br>
+<figcaption><b>Fig.3.1 - How to make a commit on visual studio</b></figcaption><br><br>
 
 
 Then, when we come back to git on my personnal repository, we can see on the figure3.2 that the modifications appear.<br> 
 
 ![screenshot 6](images/modif_sur_git.png)
-<figcaption><b>Fig.3.2 - Verification on GitHub</b></figcaption><br>
+<figcaption><b>Fig.3.2 - Verification on GitHub</b></figcaption><br><br>
 
 **4 - Fourth step : join the repository shared with the group **<br>
 
@@ -70,7 +70,7 @@ The repository shared with the group permit us to work on the same project.
 
 I had some difficulties to add some images. But after few try I finally understand how to do it. 
 
-F
+
 
 
 
