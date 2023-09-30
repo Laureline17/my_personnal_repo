@@ -40,23 +40,20 @@ using System;
 
 class Car
 {
-    /// <summary>
+
     /// Gets or sets the model of the car.
-    /// </summary>
     public string Model { get; set; }
 
-    /// <summary>
+
     /// Initializes a new instance of the <see cref="Car"/> class with a default model.
-    /// </summary>
     public Car()
     {
         Model = "Mustang"; // Set the initial value for the model
     }
 
-    /// <summary>
+
     /// Main method to demonstrate the Car class.
-    /// </summary>
-    /// <param name="args">Command-line arguments (unused).</param>
+
     static void Main(string[] args)
     {
         Car fordCar = new Car();
