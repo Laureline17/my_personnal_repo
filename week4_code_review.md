@@ -1,5 +1,17 @@
 # Code review
 
+The pratical work in week 4 it is to show our skills in code review. So we had to choose a code and to review it. 
+
+![screenshot 1](images/code_review.png)
+<figcaption><b>Fig.1 - This is the I choosed </b></figcaption><br><br>
+
+```
+function test() {
+  console.log("notice the blank line before this function?");
+}
+```
+
+
 This section documents your practical work from week 4 in which you attempt a series of 
 code review challenges. For your portfolio, do the following:
 
