@@ -2,12 +2,23 @@
 
 The pratical work in week 4 it is to show our skills in code review. So we had to choose a code and to review it. 
 
-![screenshot 1](images/code_review.png)
-<figcaption><b>Fig.1 - This is the I choosed </b></figcaption><br><br>
-
+#The code that I had choose
 ```
-function test() {
-  console.log("notice the blank line before this function?");
+class Car
+{
+  public string model;
+
+  // Class constructor
+  public Car()
+  {
+    model = "Mustang"; // Set the initial value for model
+  }
+
+  static void Main(string[] args)
+  {
+    Car Ford = new Car();
+    Console.WriteLine(Ford.model);
+  }
 }
 ```
 
