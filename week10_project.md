@@ -18,36 +18,42 @@ With this tutorial we will learn all of the following things :
 -Use navigation to move to and from pages.
 
 The first step of the tutorial is to create a new project on Visual Studio. 
+Before that we had to install  .NET Multi-platform App.
+
 ![screenshot 1](images/nouveau_projet.png)
-<figcaption><b>Fig.1.1 - How to create a new project</b></figcaption><br><br>
+<figcaption><b>Fig.1.1 - NET.MAUI</b></figcaption><br><br>
+
+![screenshot 1](images/configuration.png)
+<figcaption><b>Fig.1.1 - how to configure our new project</b></figcaption><br><br>
+
+After following all the steps in the tutorial, I was able to understand how to organise my project properly.
+To work in a team it's important to understand this,
+otherwise the members of our team won't be able to understand us and therefore won't be able to work with us.
+
 
 ## Tutorial 2 : MVVM
 
+The aim of this tutorial is to understand the model-view-viewmodel (MVVM).
+I already what it is and how it function.
+With my previous team, we used to work with this pattern.
+But I did it anyway to make sure I clearly understand everything.
 
 ## Tutorial 3 : Adding a database
 
+For this tutorial we had to install NuGet packages but i already had it.
+
+With this tutorial I learnt how to create a database context.
+So now I can use a database in my project.
+
+## General reflective
+
+This week enabled me to learn in detail how Visual Studio works and how to clearly configure a project. 
+At the begining I didn't really understood how a XAML page worked but now I understand better. 
+In conclusion, this week has helped me to clarify how to organise my projects properly and how to use databses.
+It gave me a better understanding of the work in general and what we had to do. 
+We were able to redo a new git repository for our team and we'll be able to start our project again 
+in a clearer and better organised way.
 
 
-Week 10 is the third and last week in a series in which the goal is to improve your 
-personal software engineering practice. Your portfolio entry has the same general content
-as last week's, including:
-
-* A descriptive summary of the issue that you worked on.
-* Snippets from your code with commentary showing how you have used good software design 
-  practice.
-* A descriptive summary of the test code that you have written.
-* A reflective summary of any changes that were requested during the code review along 
-  with your fixes.
-* A descriptive summary of any issues you found with the code that you were asked to review.
-* A general reflective section that identifies, for example,
-  * New things you have realised this week
-  * Common problems that can arise in a team development situation
-  * How your practice compares to other people's
-  * etc.
-
-Be sure to include links to the original items in the team's GitHub repository.
-
-In the reflective sections this week, you should highlight ways that you persona practice
-has improved as before. It would also be good to reflect on any improvements that have
-been made to the agreed team workflow and related procedures. Are things working
-better than they were? What further improvements could be made in the future?
+## Our git repository
+https://github.com/AloiSan/UndacBlue
