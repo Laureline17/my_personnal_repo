@@ -1,5 +1,33 @@
 # Project work 2
 
+For this week, I choose to join the blue team. I have too much difficulties to communicate because we had a very huge group and the communcation 
+between the members was not enough. 
+Also I preferred to be more guided so it was a good solution. 
+
+As we restarted with a new team, we had to recreate a git, a group discord to communicate with our teamates and to recreate a kanban. 
+
+## Tutorial 1 : Getting started
+
+The aim of this tutorial is to create a simple notes application which stores notes as text files.
+
+With this tutorial we will learn all of the following things :
+-Create a .NET MAUI Shell app.
+-Run your app on your chosen platform.
+-Define the user interface with eXtensible Application Markup Language (XAML), and interact with XAML elements through code.
+-Create views and bind them to data.
+-Use navigation to move to and from pages.
+
+The first step of the tutorial is to create a new project on Visual Studio. 
+![screenshot 1](images/nouveau_projet.png)
+<figcaption><b>Fig.1.1 - How to create a new project</b></figcaption><br><br>
+
+## Tutorial 2 : MVVM
+
+
+## Tutorial 3 : Adding a database
+
+
+
 Week 10 is the third and last week in a series in which the goal is to improve your 
 personal software engineering practice. Your portfolio entry has the same general content
 as last week's, including:
