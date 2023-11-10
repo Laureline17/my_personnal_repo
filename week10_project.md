@@ -23,7 +23,7 @@ Before that we had to install  .NET Multi-platform App.
 ![screenshot 1](images/nouveau_projet.png)
 <figcaption><b>Fig.1.1 - NET.MAUI</b></figcaption><br><br>
 
-![screenshot 1](images/configuration.png)
+![screenshot 1](images/configurer.png)
 <figcaption><b>Fig.1.1 - how to configure our new project</b></figcaption><br><br>
 
 After following all the steps in the tutorial, I was able to understand how to organise my project properly.
