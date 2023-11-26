@@ -1,29 +1,108 @@
 # Implementation
 
-Week 12 aims to integrate everything covered in the module.
+## My issue
+This week I xorked on the following issue : "As an UNDAC Deputy Team Leader I want to view details of all team partners so that I can contact them 
+immediately"
+The aim of this issue was to list all of the team member with their informations present on the database to make the contact with them possible. 
 
-Your portfolio entry should demonstrate your abilities, highlight improvements that you
-have made during the course of the module and show your capacity to learn from experience
-through clear analytical reflection. The structure of this entry is similar to those from 
-weeks 8-10:
+## Snippets from my code
 
-* A descriptive summary of the issue that you worked on.
-* Snippets from your code with commentary showing how you have used good software design 
-  practice.
-* A descriptive summary of the test code that you have written.
-* A reflective summary of any changes that were requested during the code review along 
-  with your fixes.
-* A descriptive summary of any issues you found with the code that you were asked to review.
-* A general reflective section that identifies, for example,
-  * New things you have realised this week
-  * Common problems that can arise in a team development situation
-  * How your practice compares to other people's
-  * etc.
+For this week I had to change the database.c because I needed the database. So I make some update to make the access of my table possible.
 
-Be sure to include links to the original items in the team's GitHub repository.
+```
+    public Task<List<PartnerAgency>> GetPartnerAgenciesAsync()
+        {
+            return _database.Table<PartnerAgency>().ToListAsync();
+        }
 
-As with the earlier entries related to the team project, the reflective sections should
-consider your own practice and team processes. In addition, this is a good point to
-include your thoughts on the general challenges related to working in a software
-development team and the most effective methods to streamline operations and to safeguard
-the quality of the end product.
+        public Task<PartnerAgency> GetPartnerAgencyAsync(int id)
+        {
+            return _database.Table<PartnerAgency>().Where(i => i.Id == id).FirstOrDefaultAsync();
+        }
+
+        public Task<int> SavePartnerAgencyAsync(PartnerAgency partnerAgency)
+        {
+            if (partnerAgency.Id != 0)
+            {
+                return _database.UpdateAsync(partnerAgency);
+            }
+            else
+            {
+                return _database.InsertAsync(partnerAgency);
+            }
+        }
+
+        public Task<int> DeletePartnerAgencyAsync(PartnerAgency partnerAgency)
+        {
+            return _database.DeleteAsync(partnerAgency);
+        }
+    }
+```
+
+GetPartnerAgency retrieves a list of all the Partners Agency objects of the database. 
+These methods encapsulate the basic CRUD (Create, Read, Update, Delete) operations for managing PartnerAgency objects in the SQLite database. 
+
+Next I created two news folders called "Models" and "Views", because with my team we decided to keep this method to organise our code because it's working. 
+
+```
+ private void InitializePartnerAgencies()
+        {
+            var partnerAgencies = _database.GetPartnerAgenciesAsync().Result;
+
+            if (partnerAgencies == null || partnerAgencies.Count == 0)
+            {
+                partnerAgencies = new List<PartnerAgency>
+                {
+                    new PartnerAgency { Name = "Agency 1", AssociationStatus = "Requested", ContactPerson = "Contact 1", ContactEmail = "contact1@example.com" },
+                    new PartnerAgency { Name = "Agency 2", AssociationStatus = "Confirmed", ContactPerson = "Contact 2", ContactEmail = "contact2@example.com" },
+                };
+
+                foreach (var partnerAgency in partnerAgencies)
+                {
+                    _database.SavePartnerAgencyAsync(partnerAgency);
+                }
+            }
+
+            partnerAgencyList.ItemsSource = partnerAgencies;
+        }
+```
+It is the intitialistation of the list. It is really important to check if the retrieved list of partnerAgencies is either null or empty before doing anything.
+
+## code review of my code
+
+Database.cs:
+In general, the code is well structured.
+However, exception handling: Use specific exceptions rather than simply writing to the console. This allows errors to be handled more appropriately.
+
+Model.cs:
+On the whole, it's good, but to extend the use of this code, adding the possibility of length or format could be good.
+It would also be better to name the model according to class, to make things clearer.
+
+As for the rest, I think it's pretty well implemented.
+
+
+I forgot to change the name of "model.cs" so I did it to make sur that my code is clear. 
+
+## code review of my teamate's code
+
+In general, the code is well structured.
+You could add more comments to make your code more readable.
+ExpertListView.xaml.cs : It might be worth considering adding exception handling to manage potential errors during database operations.
+database.cs : It is essential to get rid of the database connection correctly when it is no longer needed. So perhaps you should implement the IDisposable interface and get rid of the connection in the Dispose method.
+But otherwise the code seems really great to me.
+
+
+My teamates respects the rules that we talked about with our team so it was easier to review
+
+## General reflective section
+
+This week I noticed that everyone in the group has made efforts to follow the rules that we have fixed.
+So it was easier to work in a team than before. 
+It was also quicker. 
+
+So I think, when we work on a team, it is essential to fix some rules and to have the same organisation for our code. It is easier to review.
+It was a good thing for me to join the blue team because I could learn how to work properly in a team. 
+And it gave us the possibility to restart our organisation.
+
+
+
